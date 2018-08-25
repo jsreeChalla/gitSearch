@@ -1,11 +1,11 @@
-# Simple Todo List
+# Search
 
-The Meteor Tutorial app.
+The Meteor app with angular 1.
 
-Use it to share a single todo list with your friends. The list updates on everyone's screen in real time, and you can make tasks private if you don't want others to see them.
+Enter the name of the topic you are looking for in github,
+in the input field and hit enter.
 
-Learn how to build this app by following the [Meteor Tutorial](http://www.meteor.com/install).
+A list of repos related to the said topic will be displayed.
 
-Read more about building apps with Meteor in the [Meteor Guide](http://guide.meteor.com).
-
-![screenshot](screenshot.png)
+To clone this application locally,
+you might have to install meteor in your machine and clone the repo.
