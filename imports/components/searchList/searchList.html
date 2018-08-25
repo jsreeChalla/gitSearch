@@ -1,0 +1,19 @@
+<header>
+  <h1>Git Search</h1>
+  <label>Enter the topic in the text box</label>
+  <form class="input" ng-submit="$ctrl.search($ctrl.topic)" >
+    <input ng-model="$ctrl.topic" type="text" name="text" placeholder="Type to add new tasks"/>
+  </form>
+
+</header>
+
+ <ul>
+  <li ng-repeat="res in $ctrl.searchResults">
+    <div class="text">
+      <label>Name</label><h5>{{res.name}}</h5>
+      <label>Full name</label><h5>{{res.full_name}}</h5>
+      <label>Description</label><h5>{{res.description}}</h5>
+      <label>HomePage</label><h5>{{res.homepage}}</h5>
+    </div>
+  </li>
+</ul>

@@ -1,16 +1,16 @@
 import angular from 'angular';
 import angularMeteor from 'angular-meteor';
-import todosList from '../imports/components/todosList/todosList';
-import '../imports/startup/accounts-config.js';
+import searchList from '../imports/components/searchList/searchList';
+//import '../imports/startup/accounts-config.js';
 
-angular.module('simple-todos', [
+angular.module('simple-search', [
   angularMeteor,
-  todosList.name,
-  'accounts.ui'
+  searchList.name,
+  // 'accounts.ui'
 ]);
 
 function onReady() {
-  angular.bootstrap(document, ['simple-todos']);
+  angular.bootstrap(document, ['simple-search']);
 }
 
 if (Meteor.isCordova) {
